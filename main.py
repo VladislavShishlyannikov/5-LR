@@ -115,8 +115,6 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("Редактор базы данных")
         self.setGeometry(100, 100, 1270, 720)
 
-
-        # db_path = "../3 LR/posts.db"
         db_path = "posts.db"
         self.db_path = db_path
         self.db = QSqlDatabase.addDatabase("QSQLITE")
